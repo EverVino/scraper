@@ -1,0 +1,13 @@
+name: scraper
+channels:
+  - nodefaults
+  - conda-forge
+dependencies:
+  - black
+  - isort
+  - python 3.10
+  - pre-commit
+  - pip
+  - vulture
+  - pip:
+    - makim==1.8.2

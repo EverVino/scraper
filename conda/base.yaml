@@ -3,9 +3,13 @@ channels:
   - nodefaults
   - conda-forge
 dependencies:
+  - python 3.10
+  - bs4
+  - pandas
+  - requests
+  - jupyter
   - black
   - isort
-  - python 3.10
   - pre-commit
   - pip
   - vulture

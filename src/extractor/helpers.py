@@ -4,9 +4,16 @@ from datetime import timedelta
 
 import requests
 from bs4 import BeautifulSoup
-from shared_globals import (article_date, article_link, article_title,
-                            bad_description, bad_url_base, base_urls_pages,
-                            url_base_page, wrong_urls_pages)
+from shared_globals import (
+    article_date,
+    article_link,
+    article_title,
+    bad_description,
+    bad_url_base,
+    base_urls_pages,
+    url_base_page,
+    wrong_urls_pages,
+)
 
 with open("proxies.txt", "r") as file:
     proxies = file.read().splitlines()

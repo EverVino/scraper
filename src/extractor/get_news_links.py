@@ -3,11 +3,18 @@ from datetime import datetime
 
 import pandas as pd
 from helpers import get_articles_links_day
-from shared_globals import (article_date, article_link, article_title,
-                            bad_description, bad_url_base, base_urls_pages,
-                            url_base_page)
+from shared_globals import article_link  # ignore
+from shared_globals import (
+    article_date,
+    article_title,
+    bad_description,
+    bad_url_base,
+    base_urls_pages,
+    url_base_page,
+)
 
 # This is just for the name
+
 year = 2023
 month = 10
 

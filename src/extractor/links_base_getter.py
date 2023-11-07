@@ -2,9 +2,8 @@ import concurrent.futures
 from datetime import datetime
 
 import pandas as pd
-from helpers import (get_articles_links_day, get_days_month, get_pages_links,
-                     listing_dates)
-from shared_globals import base_urls_pages, wrong_urls_pages
+from helpers import get_days_month, get_pages_links
+from shared_globals import base_urls_pages
 
 # Get the list dates
 # lets do by month

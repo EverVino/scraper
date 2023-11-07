@@ -8,6 +8,14 @@ repos:
 
   - repo: local
     hooks:
+    # - id: isort
+    #   entry: isort
+    #   name: isort
+    #   language: system
+    #   pass_filenames: true
+    #   types:
+    #     - python
+        
     - entry: black
       id: black
       name: black
@@ -16,20 +24,14 @@ repos:
       types:
         - python
 
-    - id: isort
-      entry: isort
-      name: isort
-      language: system
-      pass_filenames: true
-      types:
-        - python
+    
 
-    - id: vulture
-      name: vulture
-      entry: vulture
-      language: system
-      files: "src/"
-      description: Find unused Python code.
-      pass_filenames: true
-      types:
-        - python
+    # - id: vulture
+    #   name: vulture
+    #   entry: vulture
+    #   language: system
+    #   files: "src/"
+    #   description: Find unused Python code.
+    #   pass_filenames: true
+    #   types:
+    #     - python
